@@ -1,6 +1,7 @@
 $(call inherit-product, device/xiaomi/sagit/full_sagit.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
-PRODUCT_NAME := sagit
+PRODUCT_NAME := nitrogen_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 6
