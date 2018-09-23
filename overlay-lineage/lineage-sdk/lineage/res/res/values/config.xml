@@ -59,4 +59,6 @@
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
     <integer name="config_deviceHardwareWakeKeys">64</integer>
+
+    <integer name="config_deviceLightCapabilities">232</integer>
 </resources>
