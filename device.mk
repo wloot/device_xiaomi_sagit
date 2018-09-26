@@ -42,6 +42,10 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
+# LiveDisplay native
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@1.0-service-sdm
+
 $(call inherit-product, vendor/goodies/config.mk)
 
 # Call the proprietary setup
