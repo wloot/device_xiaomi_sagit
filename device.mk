@@ -42,9 +42,14 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
+
 # LiveDisplay native
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@1.0-service-sdm
+
+# Thermal
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/thermal/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
 
 $(call inherit-product, vendor/goodies/config.mk)
 
